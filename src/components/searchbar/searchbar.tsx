@@ -41,7 +41,7 @@ export const SearchBar = component$(() => {
         value={nameResource}
         onPending={() => <div>Loading...</div>}
         onRejected={() => <div>No doggo found</div>}
-        onResolved={(data) => (
+        onResolved={(data: []) => (
           <div class="grid grid-cols-4 gap-4">
             {data.map((url) => {
               return (

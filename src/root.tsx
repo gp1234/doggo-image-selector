@@ -1,8 +1,6 @@
 import { SearchBar } from "./components/searchbar/searchbar";
 import "./index.css";
 import "./background.css";
-import { SideBar } from "./components/sidebar/sidebar";
-
 export default () => {
   return (
     <>

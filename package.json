@@ -24,7 +24,9 @@
   "scripts": {
     "build": "qwik build",
     "build.lib": "vite build --mode lib",
+    "build.server": "vite build -c adapters/netlify-edge/vite.config.ts",
     "build.types": "tsc --emitDeclarationOnly",
+    "deploy": "netlify deploy --build",
     "dev": "vite --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
     "fmt": "prettier --write .",
@@ -36,6 +38,7 @@
   },
   "devDependencies": {
     "@builder.io/qwik": "0.23.0",
+    "@netlify/edge-functions": "^2.0.0",
     "@types/eslint": "8.21.2",
     "@types/node": "^18.15.3",
     "@typescript-eslint/eslint-plugin": "5.55.0",
@@ -43,6 +46,7 @@
     "autoprefixer": "^10.4.14",
     "eslint": "8.36.0",
     "eslint-plugin-qwik": "latest",
+    "netlify-cli": "^12.0.11",
     "np": "7.6.1",
     "postcss": "^8.4.21",
     "prettier": "2.8.4",
