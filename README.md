@@ -4,6 +4,6 @@ This is an example project to test and learn about [qwik](https://qwik.builder.i
 
 ---
 
-## I am using a public Api for the doggos images [Doggo Api](http://dog.ceo/dog-api/documentation/) and tailwind for css.
+I am using a public Api for the doggos images [Doggo Api](http://dog.ceo/dog-api/documentation/) and tailwind for css.
 
 I will continue exploring Qwik as I found it very interesing
